@@ -1,13 +1,12 @@
-package com.itjy.coupon;
+package com.itjy;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-@Slf4j
-public class CouponApplication {
+public class GatewayApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CouponApplication.class, args);
+        SpringApplication.run(GatewayApplication.class, args);
     }
 }
